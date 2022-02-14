@@ -1,0 +1,41 @@
+.roadmap-chapter {
+  text-align: center;
+  height: 450px;
+  width: 350px;
+}
+
+.chapter-img {
+  width: 90px;
+}
+
+.chapter {
+  margin-top: 0.5rem;
+  color: #fff;
+}
+
+.underline {
+  height: 0.35rem;
+  width: 8.5rem;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.on {
+  background: #00dd59;
+}
+
+.heading {
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.sub-heading {
+  color: #fff;
+}
+
+.chapter-info {
+  width: 20rem;
+  margin: 0 auto;
+  color: grey;
+}

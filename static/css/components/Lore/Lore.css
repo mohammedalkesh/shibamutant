@@ -1,0 +1,28 @@
+.lore-container {
+  height: auto;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.paragraph {
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+  max-width: 50rem;
+  margin: 1rem auto;
+}
+
+@media screen and (max-width: 900px) {
+  .paragraph {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .lore-heading {
+    font-size: 1.5rem;
+  }
+  .btn {
+    margin-right: 0;
+  }
+}

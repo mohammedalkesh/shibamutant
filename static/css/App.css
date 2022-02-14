@@ -1,0 +1,20 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  background: #181818;
+  width: 65vw;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media screen and (max-width: 1170px) {
+  .app {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app {
+    width: 90%;
+  }
+}

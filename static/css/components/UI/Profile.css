@@ -1,0 +1,17 @@
+.alpha {
+  height: auto;
+  text-align: center;
+  width: 250px;
+}
+
+.name {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.role {
+  text-transform: capitalize;
+  margin: 0;
+  color: grey;
+}

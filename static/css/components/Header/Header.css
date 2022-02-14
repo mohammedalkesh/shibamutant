@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 9vh;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.logo {
+  width: 300px;
+}
+
+.paw {
+  display: none;
+}
+
+@media screen and (max-width: 564px) {
+  .logo {
+    width: 90%;
+    display: none;
+  }
+
+  .social-icon {
+    transform: scale(0.85);
+  }
+
+  .paw {
+    display: inline-block;
+    transform: scale(0.75);
+  }
+}

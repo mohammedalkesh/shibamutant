@@ -1,0 +1,57 @@
+.socials {
+  list-style-type: none;
+  display: flex;
+  column-gap: 1.25rem;
+  align-items: center;
+  transform: translateY(3.5px);
+}
+
+.social-icon {
+  width: 30px;
+  transition: all 400ms ease-in-out;
+}
+
+.social-link :hover {
+  transform: translateY(3px);
+}
+
+.link-off {
+  cursor: initial;
+  position: relative;
+}
+
+.soon {
+  display: block;
+  text-decoration: none;
+  position: absolute;
+  width: auto;
+  text-transform: uppercase;
+  top: -150%;
+  left: 50%;
+  opacity: 1;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: bolder;
+  font-family: DinCondensed;
+}
+
+.link-off[disabled] {
+  pointer-events: none;
+}
+
+.off {
+  /* width: 30px; */
+  opacity: 0.3;
+  /* transition: none; */
+  transform: translateY(0);
+}
+
+.social-link {
+  color: #fff;
+}
+
+@media screen and (max-width: 564px) {
+  .social-icon {
+    transform: scale(0.85);
+  }
+}

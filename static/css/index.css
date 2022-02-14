@@ -1,0 +1,41 @@
+@font-face {
+  font-family: DinCondensed;
+  src: url("/src/assets/fonts/DIN_Condensed_Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: MyriadPro;
+  src: url("./assets/fonts/MyriadPro-Regular.otf") format("opentype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: MyriadPro;
+  background: var(--mainBG);
+  width: 100%;
+  background-image: url("./assets/images/appBG.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100vw 100vh;
+  background-position: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-family: DinCondensed;
+}
+
+:root {
+  --mainBG: #181818;
+  --zenith: #00dd59;
+  --darkBG: #071113;
+}
+
+@media screen and (max-width: 1170px) {
+  body {
+    background: var(--mainBG);
+  }
+}
